@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background: url(kartinki/fonbf1.jpg);
+}
+table {
+    border-spacing: 40px;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid transparent;
+}
+b {
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    outline: 1px solid white;
+    padding: 5px;
+}
+img {
+    width: 400px;
+}
+.h2 {
+   margin: 20px;
+}
