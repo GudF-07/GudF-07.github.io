@@ -1,0 +1,126 @@
+.conteiner {
+    background-color: blue;
+    margin: 0 auto;
+    width: 800px;
+    overflow: hidden;
+}
+.menu {
+    margin: 15px;
+    height: 50px;
+    background-color: red;
+    text-align: right;
+}
+.element {
+    margin: 5px 30px 5px 0px;
+    width: 110px;
+    height: 40px;
+    background-color: green;
+    display: inline-block;
+}
+.menu-left {
+    margin: 0 15px 15px 15px;
+    height: 265px;
+    width: 100px;
+    background-color: orange;
+    float: left;
+}
+.item-x {
+    margin: 60px 15px 10px 5px;
+    height: 45px;
+    width: 80px;
+    background-color: red;
+    float: left;
+}
+.item {
+    margin: 10px 15px 10px 5px;
+    height: 45px;
+    width: 80px;
+    background-color: red;
+    float: left;
+}
+.adv {
+    margin: 0 15px 15px 15px;
+    height: 165px;
+    width: 100px;
+    background-color: purple;
+    float: left;
+}
+.left {
+    float: left;
+    width: 115px;
+}
+.main {
+    margin-left: 130px;
+    height: 450px;
+}
+.name {
+    background-color: chocolate;
+    margin: 0 20px 0 0;
+    height: 30px;
+}
+.af {
+    float: left;
+    width: 130px;
+}
+.avatar {
+    margin: 0 0 10px 0;
+    background-color: pink;
+    float: left;
+    height: 220px;
+    width: 130px;
+}
+.friends {
+    background-color: pink;
+    float: left;
+    height: 185px;
+    width: 130px;
+}
+.f1 {
+    float: left;
+    width: 65px;
+    height: 185px;
+}
+.f2 {
+    float: right;
+    width: 65px;
+    height: 185px;
+}
+.f-x {
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin: 60px 5px 5px 5px;
+    background-color: red;
+}
+.f {
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: red;
+}
+.lenta {
+    margin-left: 130px;
+    height: 400px;
+}
+.news {
+    margin: 5px 20px 5px 5px;
+    background-color: saddlebrown;
+    height: 130px;
+}
+.info {
+    margin: 5px 20px 5px 5px;
+    background-color: pink;
+    height: 120px;
+    padding: 5px;
+}
+.data-town {
+    margin: 5px 15px 5px 40px;
+    background-color: yellow;
+    height: 52px;
+}
+.footer {
+    margin: 5px;
+    background-color: palevioletred;
+    height: 50px;
+}
