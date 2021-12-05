@@ -1,0 +1,130 @@
+body {
+    background: url(kartinki/fonbf1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 1350px;
+    flex-wrap: wrap;
+}
+
+.head {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.robot {
+    text-align: center;
+    padding: 0 150px 300px 150px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 40px;
+    color: white;
+    background: url(kartinki/BF\ 2042\ robot.jpg);
+    background-size: cover;
+    font-size: large;
+}
+
+.poster {
+    text-align: center;
+    padding: 0 150px 300px 150px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 40px;
+    color: white;
+    background: url(kartinki/BF\ 2042.jfif);
+    background-size: cover;
+    font-size: large;
+}
+
+.go {
+    font-size: x-large;
+    text-align: center;
+    margin: 40px;
+    width: 100%;
+}
+.go2 {
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+a:hover {
+    outline: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.post {
+    font-size: large;
+    text-align: center;
+    padding: 0 150px 300px 150px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 40px;
+    color: white;
+    background: url(kartinki/bf-post-short.jpg);
+    background-size: cover;
+}
+
+.g-post {
+    font-size: large;
+    text-align: center;
+    padding: 0 150px 250px 150px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 40px;
+    color: white;
+    background: url(kartinki/poster.jpg);
+    background-size: cover;
+}
+
+.skrin {
+    text-align: center;
+    padding: 0 150px 250px 150px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 40px;
+    color: white;
+    background: url(kartinki/skreenshot.jpg);
+    background-size: cover;
+    font-size: large;
+}
+.text {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.go3 {
+    font-size: large;
+    text-align: center;
+    margin: 10px 10px 450px 10px;
+    width: 100%;
+}
+.go4 {
+    font-size: large;
+    text-align: center;
+    margin: 10px 10px 35px 10px;
+    width: 100%;
+}
