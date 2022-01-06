@@ -1,0 +1,401 @@
+body {
+    background: url(kartinki/osnovnoi-fon.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-video {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 1400px;
+    flex-wrap: wrap;
+}
+
+.head {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    margin: 1%;
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.robot, .poster {
+    animation-name: first;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+    text-align: center;
+    padding: 1% 16% 23% 16%;
+    margin: 1%;
+    border-radius: 40px;
+    color: white;
+    background-image: url(kartinki/BF\ 2042\ robot.jpg);
+    background-size: cover;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.poster {
+    background-image: url(kartinki/BF\ 2042.jfif);
+}
+
+.go {
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    margin: 5%;
+    width: 100%;
+}
+.go2 {
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    margin: 5%;
+    width: 100%;
+}
+
+.went {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    outline: 1px solid transparent;
+    padding: 0.5%;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.went:hover {
+    transition-duration: 0.2s;
+    outline: 1px solid white;
+    border-radius: 15px;
+}
+
+.post, .g-post, .skrin {
+    font-size: 50px;
+    line-height: 10px;
+    text-align: center;
+    padding: 1% 16% 40% 16%;
+    margin: 2% 15% 2% 15%;
+    border-radius: 40px;
+    color: white;
+    background: url(kartinki/bf-post-short.jpg);
+    background-size: cover;
+    line-height: 90%;
+}
+
+.g-post {
+    background: url(kartinki/poster.jpg);
+}
+
+.skrin {
+    background: url(kartinki/skreenshot.jpg);
+}
+
+.b {
+    font-size: 50px;
+}
+
+.help {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.go3 {
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    margin: 1% 2% 1% 2%;
+    width: 100%;
+}
+.go4 {
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    margin: 10px 10px 35px 10px;
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    margin: 3%;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+video {
+    width: 80%;
+}
+
+
+.battons {
+    outline: 1px solid white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 15px;
+    color: white;
+    margin: 5%;
+    background-color: transparent;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 0 3% 0;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.spisok {
+    position: relative;
+    padding: 1.5% 3%;
+    color: white;
+    margin: 2%;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.struktura {
+    width: 120%;
+    position: absolute;
+    background-color: gray;
+    border-radius: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    left: 70%;
+}
+
+.punkt, .dop-menu {  
+    position: relative;
+    padding: 15% 10%;
+    opacity: 50%;
+}
+
+.dop {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    left: 95%;
+    transition-duration: 0.5s;
+}
+
+.punkt:hover>.dop {
+    opacity: 1;
+    visibility: visible;
+}
+
+.punkt:hover, .dop-menu:hover {
+    opacity: 100%;
+}
+
+.spisok:hover>.struktura {
+    opacity: 1;
+    visibility: visible;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.new-text {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px;
+    padding: 1% 0 0 0;
+}
+
+@media (max-width: 1356px) {
+    .robot, .poster {
+        padding: 1% 13% 25% 13%;
+        margin: 1%;
+    }
+
+    .spisok {
+        padding: 3% 4%;
+        font-size: 30px;
+    }
+
+    .went {
+        font-size: 30px;
+    }
+
+    .head {
+        font-size: 40px;
+    }
+
+    .struktura {
+        width: 140%;
+    }
+}
+
+@media (max-width: 900px) {
+    .robot, .poster {
+        padding: 1% 25% 40% 25%;
+        margin: 1%;
+        line-height: 90%;
+    }
+
+    .spisok {
+        font-size: 25px;
+    }
+
+    .went {
+        line-height: 90%;
+        font-size: 30px;
+    }
+
+    .struktura {
+        width: 160%;
+    }
+
+    b {
+        font-size: 30px;
+    }
+
+    .post, .g-post, .skrin {
+        font-size: 40px;
+        padding: 1% 16% 40% 16%;
+        margin: 2% 20% 2% 20%;
+    }
+
+    .battons {
+        padding: 2% 3%;
+       font-size: 40px;
+    }
+}
+
+@media (max-width: 413px) {
+    .spisok {
+        font-size: 20px;
+    }
+
+    .went {
+        font-size: 25px;
+    }
+
+    .struktura {
+        width: 180%;
+    }
+
+    .struktura {
+        left: 40%;
+    }
+    
+    .dop {
+        left: 60%;
+    }
+
+    .robot, .poster {
+        padding: 1% 25% 30% 25%;
+        margin: 1%;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .post, .g-post, .skrin {
+        font-size: 30px;
+        padding: 1% 10% 50% 10%;
+        margin: 2% 10% 5% 10%;
+    }
+
+    .help {
+        margin: 0 0 10% 0;
+    }
+
+}
+
+@media (max-width: 613px) {
+    .battons {
+        margin: 5% 5% 35% 5%;
+    }
+    .text {
+        margin: 3% 3% 7% 3%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 577px) {
+    .battons {
+        margin: 5% 5% 45% 5%;
+    }
+}
+
+@media (max-width: 535px) {
+    .battons {
+        margin: 5% 5% 55% 5%;
+    }
+}
+
+@media (max-width: 459px) {
+    .battons {
+        margin: 5% 5% 65% 5%;
+    }
+}
+
+@media (max-width: 429px) {
+    .battons {
+        margin: 5% 5% 75% 5%;
+    }
+}
+
+@media (max-width: 409px) {
+    .battons {
+        margin: 5% 5% 85% 5%;
+    }
+}
+
+@media (max-width: 385px) {
+    .battons {
+        margin: 5% 5% 95% 5%;
+    }
+}
+
+@media (max-width: 363px) {
+    .battons {
+        margin: 5% 5% 105% 5%;
+    }
+}
