@@ -1,0 +1,304 @@
+.main, .menu, .story {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    max-width: 1400px;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 50%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
+
+.name {
+    width: 40%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 400%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+hr {
+    width: 70%;
+}
+
+.halp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.avo {
+    background-image: url(image/avo.jpg);
+    border-radius: 100%;
+    padding: 10%;
+    background-size: cover;
+    margin-bottom: 2.5%;
+}
+
+.avo-dop {
+    font-size: 200%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.second {
+    width: 80%;
+}
+
+.footer {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.GB, .rules, .contacts {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 1.5%;
+    text-align: center;
+    padding: 2% 5% ;
+    color: white;
+    opacity: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.button {
+    text-align: center;
+    border-radius: 50px;
+    background-color: black;
+    width: 10%;
+    padding: 1% 2%;
+}
+
+.menu {
+    justify-content: flex-start;
+}
+
+.number {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+@media (max-width: 1194px) {
+    .button{
+        padding: 1% 4%;
+    }
+
+    .avo {
+        padding: 12.5%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .name {
+        font-size: 350%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .name {
+        font-size: 330%;
+    }
+
+    .avo {
+        padding: 14%;
+    }
+
+    .button{
+        padding: 2% 5%;
+    }
+}
+
+@media (max-width: 961px) {
+    .name {
+        font-size: 310%;
+    }
+
+    .avo {
+        padding: 15%;
+    }
+}
+
+@media (max-width: 904px) {
+    .name {
+        font-size: 290%;
+    }
+
+    .avo {
+        padding: 16%;
+    }
+}
+
+@media (max-width: 848px) {
+    .name {
+        font-size: 270%;
+    }
+
+    .avo {
+        padding: 17%;
+    }
+
+    .button{
+        padding: 1% 6%;
+        font-size: 170%;
+    }
+}
+
+@media (max-width: 789px) {
+    .name {
+        font-size: 250%;
+    }
+
+    .avo {
+        padding: 18%;
+    }
+
+    .button{
+        padding: 1% 7%;
+        font-size: 170%;
+    }
+}
+
+@media (max-width: 732px) {
+    .name {
+        font-size: 220%;
+    }
+
+    .avo {
+        padding: 19%;
+    }
+}
+
+@media (max-width: 646px) {
+    .name {
+        font-size: 200%;
+    }
+
+    .avo {
+        padding: 20%;
+    }
+
+    .GB, .rules, .contacts {
+        font-size: 130%;
+    }
+
+    .button{
+        padding: 2% 7%;
+        font-size: 180%;
+    }
+
+    .about {
+        font-size: 180%;
+    }
+
+    .button{
+        padding: 1% 8%;
+        font-size: 170%;
+    }
+}
+
+@media (max-width: 589px) {
+    .name {
+        font-size: 180%;
+    }
+
+    .avo {
+        padding: 21%;
+    }
+
+    .title {
+        font-size: 350%;
+    }
+
+    .GB, .rules, .contacts {
+        font-size: 100%;
+    }
+
+    .button{
+        padding: 1% 10%;
+        font-size: 170%;
+    }
+}
+
+@media (max-width: 531px) {
+    .name {
+        font-size: 180%;
+    }
+
+    .avo {
+        padding: 21%;
+    }
+
+    .title {
+        font-size: 350%;
+    }
+
+    .GB, .rules, .contacts {
+        font-size: 90%;
+        width: 100%;
+    }
+
+    .button{
+        padding: 1% 12%;
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 450px) {
+    .name {
+        font-size: 180%;
+    }
+
+    .avo {
+        padding: 27%;
+    }
+
+    .title {
+        font-size: 330%;
+    }
+
+    .GB, .rules, .contacts {
+        font-size: 80%;
+    }
+
+    .button{
+        padding: 1% 13%;
+        font-size: 140%;
+    }
+}
